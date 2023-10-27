@@ -1,25 +1,91 @@
-body {background-image: url(/Bootcamp/HTML/Images/mohammad-rahmani-1bNQVGzuy0U-unsplash.jpg); 
-    background-position: center;
-    background-repeat: no-repeat;
-    
-  background-size: 500px;
-    
-;}
 
-.div1 {background-color: rgba(181, 153, 116) ; 
-    colour: white;
-border-top-style: solid;
-border-bottom-style: solid; 
-
+#home {background-image: url(/Bootcamp/HTML/Images/mohammad-rahmani-1bNQVGzuy0U-unsplash.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
 }
 
 
+.image-container {
+  
+  background-size: cover; /* You can use 'contain', '100%', 'auto', etc. for different sizing options */
+  width: 300px;
+  height: 200px;
+}
 
-.h1 {color: whitesmoke}
 
-.div2 {background-color: darkred; color:aliceblue; 
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-.img {height: ; width: ;}
+a:link {text-decoration: none;
+  color: gold;
+  }
+
+  a {
+    color: white;
+  }
+  
+
+.div1 { padding: 0px 10px 10px 0px;
+  word-spacing: 30px;
+    colour: white;
+}
+
+.h1 {color: whitesmoke; 
+border: solid white; 
+border-left: 3px;
+border-right: 3px;
+position:absolute;
+left: 900px;
+top: 400px}
+
+.div3 {color:azure;
+position: absolute;
+bottom: 350px;
+left: 900px;
+}
+
+/* Enter */ 
 
 
-.id {background-image: url(/Bootcamp/HTML/Images/pexels-jorge-jesus-614117.jpg);}
+
+#enter {
+  background-color:rgb(169, 102, 54);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#a1 { color: yellow; 
+word-spacing: 50px; }
+
+.h, h2, .p { color:aqua;
+  color: rgb(77, 76, 76);
+  border: 
+  height: 100px;
+  width: 600px;
+ }
+
+ .sidenav {list-style-type:none; 
+  
+}
+
+ .p1, .p2 {border: 0px; 
+height: 100px; 
+width: 600px; 
+color: rgb(77, 76, 76);
+}
+
+li {color: rgb(77, 76, 76);}
+
+/* Career History or Timeline */
+
+#career {}
+
+
+/*Education - not sure if this is required yet, because I am no longer in school, college or at university.*/
+
+#education {}
+
+/* contact */
+
+#contact {background-image: url(/Bootcamp/HTML/Images/damian-zaleski-RYyr-k3Ysqg-unsplash.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}

@@ -1,0 +1,97 @@
+body {
+    background-color:goldenrod;
+    height: 650px;
+    width: 1400px;
+    border: 5px solid blanchedalmond;
+   
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+display: grid; 
+flex-direction: row;
+color:rgb(107, 2, 2)}
+
+.nav ul li{ 
+    border: 4px solid silver; 
+    border-radius: 40px;
+    display:inline-block;
+    height: 25px;
+    text-align: center;
+width: 120px;
+float:inline-end;
+}
+
+.nav, a, h1, { background-color:rgb(195, 95, 95);}
+
+
+.nav :hover { background-color: azure;
+    text-align:center; 
+text-decoration: none;}
+
+
+h1 {font-family:Verdana, Geneva, Tahoma, sans-serif;
+text-align: center; 
+font-size: 4rem;
+background-color:lightcyan;
+border-radius: 20px}
+
+h2 {}
+
+.main, .project, .news, .location {display:inline-block; text-align: center;}
+
+
+
+.project { border: 5px solid orange;
+    border-radius: 20px;
+    height: 250px;
+    width: 400px;
+    text-align: center;
+   
+  
+}
+    
+img {
+height: 200px;
+width: 400px;
+}
+
+.news { border: 5px solid green;
+    border-radius: 10px;
+height: 250px;
+width: 400px;
+dis
+flex-direction: row;
+text-align: center;
+
+}
+
+.location {border: 5px solid powderblue;
+border-radius: 25px;
+height: 250px; 
+width: 400px;}
+
+.main {display: inline-block;}
+
+#project img{ background-size: 50px;
+    height: 100px;
+    width: 200px;
+
+    
+}
+.h { }
+
+                        /* contact page */
+
+#form {background-color:aquamarine;
+border: 3px solid yellow;
+align-item: right;
+height:500px;
+width: 350px;
+float: center;}
+
+p {color:darkslategrey}
+
+
+
+@media screen and (max-width:600px) {body{ background-color: burlywood;
+font-size: 20px;
+}   
+ 

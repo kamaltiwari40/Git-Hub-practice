@@ -1,0 +1,12 @@
+.first, .second, .third, .fourth  {
+    width 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+first, .second, .third, .fourth  {
+    width 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+

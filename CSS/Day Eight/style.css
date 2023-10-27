@@ -1,0 +1,127 @@
+/* /* 
+.transition {background-color: blueviolet;
+width: 150px;
+height:100px;
+transition: margin-left 2s; background-color 3s margin 3s
+} 
+
+.transition:hover {
+    width: 300px;
+    background-color: green;
+ margin-left: 100px;}
+*/
+
+ /* Animation*/
+/*
+ .animation {background-color:cadetblue;
+width:100px;
+heigh:100px;
+animation-name: move;
+animation-duration: 2s;
+
+} 
+
+@keyframes move {from {margin-left:0px;}
+ to {margin-left:200px;}}
+
+
+ .animation{
+
+    background-color: brown;
+
+    width: 100px;
+
+    height: 100px;
+
+    animation-name: move;
+
+    animation-duration: 2s;
+
+    animation-iteration-count: infinite;
+
+    /* animation-delay: 1s; */
+
+}
+
+/*@keyframes move {
+
+    from{
+
+        margin-left:0px
+
+    }
+
+    to{
+
+        margin-left:200px;
+
+    }
+
+}
+*/
+.animation2 {background-color: red;
+width: 100px;
+height: 100px;
+animation-name: move;
+animation-duration: 2s;
+animation-iteration-count: infinite;}
+
+/*
+@keyframes move  { 0% from {margin-left: 100px;}
+to { left-right: 100px;  } 
+
+25% 
+    from{ right-down: 100px;}
+    to { down-: 10px;}}}*/
+
+    @keyframes move {
+
+        0% {
+
+
+
+        }
+
+        25% {
+
+            margin-left: 100px;
+
+            margin-top: 0px;
+
+            margin-right: 0px;
+
+            margin-bottom: 0px;
+
+        }
+
+        50% {
+
+            margin-top: 100px;
+
+            margin-left: 100px;
+
+            margin-right: 0px;
+
+            margin-bottom: 0px;
+
+        }
+
+        75% {
+
+            margin-right: 100px;
+
+            margin-left: 0px;
+
+            margin-top: 100px;
+
+            margin-bottom: 0px;
+
+        }
+
+        100% {
+
+           
+
+        }/*
+
+         */

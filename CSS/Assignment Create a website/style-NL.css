@@ -1,0 +1,45 @@
+
+body {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 
+border: 1px solid;
+display: flex;
+flex-direction: column;
+border-radius:  15px;
+}
+
+
+#links {background-color: chartreuse;
+height: 90px;
+width: 500px; 
+align-content: center;
+text-align: center;
+word-spacing: 50px;
+border-radius: 40px;
+padding: 10px;
+}
+
+
+#prep {background-color: red;
+width: 100px;
+height: 500px;
+border-radius: 15px;
+font-size: 8px;
+}
+
+img {
+heigh: 100px;
+width: 100px;
+}
+
+#content { background-color: coral;
+height: 500px;
+width: 400px;
+margin-left: auto;
+margin-top: -500px;
+
+}
+#footer {background-color: blueviolet;
+padding: 20px;
+border-radius: 20px;
+color:antiquewhite;
+text-align: center;}

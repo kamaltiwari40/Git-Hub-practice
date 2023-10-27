@@ -1,0 +1,66 @@
+body {
+  background-color:rgb(62, 62, 244);
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+border: 5px solid gold;
+color: azure;
+}
+
+#nav ul li{ 
+color: aliceblue;
+   list-style-type: none;
+   text-align: center;
+   border: 4px solid gold;
+   border-radius: 20px;
+   border-spacing: 50px;
+   border-right-color:gold;
+   height: 30px;
+   width: 100px;
+   border-left-color: gold;
+float: right;
+display: inline-block;
+}
+
+#nav :hover { background-color:darkgray;
+  text-align:center; 
+}
+
+#nav a {text-decoration: none;
+  color:antiquewhite;}
+  
+
+img { background-size: cover;
+  border: 1px solid gold;
+  height: 200px;
+width: 300px;
+text-align: justify;
+float: inline-start;
+
+}
+
+
+.sun {
+  display: inline-block;
+  border: 3px solid orangered;
+  float: inline-end;
+
+
+}
+
+.title {text-align: center;}
+
+  #p {
+    text-align: justify;
+    height: 200px;
+  width: 800px; 
+  float:top;
+  margin-left: 100px;
+  
+}
+
+  .p {text-align: justify;
+    height: 200px;
+  width: 800px;
+}
+
+embed {display: inline-block;
+}

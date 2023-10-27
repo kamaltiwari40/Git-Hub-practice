@@ -1,0 +1,77 @@
+*
+
+what does vh mean? Jamila - view height
+
+    height: 70vh;
+
+What does vw mean? Brandon
+
+    viewport width
+
+    70vw
+
+What is the default font size of root element? Mubiwa
+
+    16px
+
+What does rm mean? Natasha
+
+    root element - 5rm
+
+What is flex? Karolis
+
+*/
+
+body{
+
+   
+
+    background-color: coral;
+
+    display: grid;
+
+    gap: 0.5rem;
+
+    grid-template-columns:1fr 2fr;
+
+   
+
+}
+
+header{
+
+    background-color:aqua;
+
+    /* grid-column-start: 1; */
+
+    /* grid-column-end: 3; */
+
+  /*   grid-column: 1/3; */
+
+  grid-column:1/ span 2;
+
+}
+
+aside{
+
+    background-color:brown ;
+
+    grid-column: 1/2;
+
+}
+
+main{
+
+    background-color: cornsilk;
+
+    grid-column: 2/3;
+
+}
+
+footer{
+
+    background-color:aqua;
+
+    grid-column:1/3
+
+}

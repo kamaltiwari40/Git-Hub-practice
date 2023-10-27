@@ -1,0 +1,286 @@
+/*
+
+Learning object
+
+    - Exploring the position property
+
+    - Creating Navigation bar for a website
+
+    - Controlling the overlap of element using CSS
+
+*/
+
+/*
+
+What is margin in CSS? Kamal
+
+    --  space ouside the border
+
+    -- top:20px , bottom:10px, right:30px, left: 30px
+
+    margin:top right bottom left
+
+    margin: 20px 30px 10px 30px
+
+    margin:10px 20px / margin:top/bottom right/left
+
+What is padding in CSS and how can we control them? Ehsaan
+
+    -- space between the content and border
+
+what is clear propery in css? Priti
+
+    - stop the floating
+
+how can we make an inline element as block and block element as inline element? Dominic
+
+    display: inline
+
+    display: block
+
+what is difference between inline-block and inline properties? Gabriel
+
+    with inline-block we can set height and width to the element.
+
+*/
+
+/*
+
+Position
+
+    Static = this is the default setting.
+
+  An element set this way will position itself according the flow of the web page
+
+ 
+
+  relative = is positioned relative to its normal position.
+
+ 
+
+  fixed = is positioned relative to the viewport,
+
+  which means it always stays in the same place even if the page is scrolled.
+
+ 
+
+  absolute = is positioned relative to the nearest positioned ancestor
+
+      (instead of positioned relative to the viewport, like fixed).
+
+      However; if an absolute positioned element has no positioned ancestors,
+
+      it uses the document body,
+
+      and moves along with page scrolling.
+
+ 
+
+  sticky = is positioned based on the user's scroll position.
+
+  A sticky element toggles between relative and fixed, depending on the scroll position.
+
+  It is positioned relative until a given offset position is met in the viewport
+
+    - then it "sticks" in place.
+
+*/
+
+*{
+
+    margin: 0px;
+
+    padding: 0px;
+
+}
+
+.parent{
+
+    background-color: aquamarine;
+
+    margin-bottom: 5px;
+
+}
+
+.first{
+
+    height: 250px;
+
+    width: 250px;
+
+    background-color: blueviolet;
+
+    margin-bottom: 5px;
+
+ 
+
+}
+
+.second{
+
+   
+
+    width: 80%;
+
+    height: 200px;
+
+    background-color: rgb(226, 43, 64);
+
+    position: relative;
+
+    top: 40px;
+
+    left:50px;
+
+  z-index: -1;
+
+}
+
+.third{
+
+   height: 200px;
+
+    width: 80%;
+
+    background-color: rgb(122, 115, 130);
+
+  z-index: 1;
+
+}
+
+.fourthDiv{
+
+    background-color: rgb(41, 32, 50);
+
+    position:fixed;
+
+    top:400px;
+
+    left: 30px;
+
+}
+
+.stick{
+
+   
+
+    background-color: rgb(139, 89, 188);
+
+    position: sticky;
+
+    top:0px;
+
+}
+
+/*
+
+z-index:
+
+    - the higher the z-index value for an element is, will have highest overlapping prioprity.
+
+*/
+
+/* **************************Navigation Bar********************************* */
+
+ 
+
+ul{
+
+    list-style-type:none;
+
+    background-color: lightslategray;
+
+    overflow: hidden;
+
+    padding: 0px;
+
+    /* position: sticky; */
+
+    /* top: 0px; */
+
+    text-align: center;
+
+   
+
+}
+
+ul li{
+
+    float: left;;
+
+    border-right: 2px solid white;
+
+}
+
+ul li a, .project{
+
+    text-decoration: none;
+
+    color:white;
+
+    font-size: 20px;
+
+    padding: 10px 20px;
+
+    display: inline-block;
+
+    text-align: center;
+
+   
+
+}
+
+ 
+
+ul li a:hover{
+
+    background-color: gold;
+
+    color:brown
+
+}
+
+.dropDownTab{
+
+    display: none;
+
+    background-color: lightslategray;
+
+    min-width: 15px;
+
+    position: absolute;
+
+   
+
+}
+
+.dropDownTab a{
+
+    display: block;
+
+    text-decoration: none;
+
+    text-align: left;
+
+    color: white;
+
+    padding: 10px 15px;
+
+}
+
+.dropDown:hover .dropDownTab {
+
+    display: block;
+
+}
+
+header{
+
+    height: 80px;
+
+    background-color: blueviolet;
+
+}
+
+has context menu
+

@@ -1,0 +1,7 @@
+.rectangle {border: 3px solid;
+    background-color:rgb(108, 108, 238);
+width: 200px;
+height: 100px;
+
+transform: skewy(40deg);
+}

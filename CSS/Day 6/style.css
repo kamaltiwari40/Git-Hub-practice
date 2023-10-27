@@ -1,0 +1,45 @@
+/* *em, rem, vh, and vw units  16px 32px 48px
+
+ 
+
+em = Relative to the font-size of the prent element (2em means 2 times the size of the current font)
+
+rem = Relative to font-size of the root element - in html doc root is always <html>
+
+vh = Relative to 1% of the height of the viewport*
+
+vw = Relative to 1% of the width of the viewport*
+
+ 
+
+% = Relative to viewport*
+
+ 
+
+* Viewport = the browser window size. */
+
+/*
+.parent {width: 400px;
+background-color: brown;
+font size: 40px;
+height: 50vh;} /* screen height */
+
+/*
+.child {width: 300px;
+    background-color: rgb(52, 52, 178);
+font-size: 5em;}
+
+html { font-size:30px;}
+
+.p1{font-size: 2rem}
+.main {background-color: blueviolet;
+width: 50%;}  */
+
+.a { font-size: 5rem;}
+.b { font-size: 5em;}
+.c {font-size: 5vh;}
+.d {font-size: 5vw;}
+.e {font-size: 5px;}
+.f {font-size: 5%;}
+
+
