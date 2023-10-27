@@ -3,6 +3,7 @@ body {
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 border: 5px solid gold;
 color: azure;
+flex-direction: ;
 }
 
 #nav ul li{ 
@@ -18,6 +19,7 @@ color: aliceblue;
    border-left-color: gold;
 float: right;
 display: inline-block;
+position:sticky;
 }
 
 #nav :hover { background-color:darkgray;
@@ -62,5 +64,15 @@ float: inline-start;
   width: 800px;
 }
 
-embed {display: inline-block;
-}
+
+#form {
+  border: 5px solid blanchedalmond;
+  height: 150px;
+  width: 700px;
+  background-color: skyblue; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+#form {background-color:blue;
+  align-content: center;
+color:burlywood;}
+
+
