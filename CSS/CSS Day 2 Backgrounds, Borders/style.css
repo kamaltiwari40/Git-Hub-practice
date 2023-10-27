@@ -1,0 +1,95 @@
+/*body{ 
+    background-color: burlywood;
+   /* background-image: url('../../HTML/Images/free_svg_brands.png');
+    background-image: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+
+    background-position: center right;
+    background-position: top 30px right 20px; */
+}
+
+/*
+.div {height: 400px; width: 400px;
+background-color: rgb(119, 17, 119);
+background-image: url(../../HTML/Images/nature\ image.jpg)
+background-size: 10px;
+background-position: top 10px left 10 px;
+*/
+}
+
+/*
+.div1 { width: 300px
+height:300px
+/* border: 5px sol red 
+border: 20px;
+border-style: dotted;
+border-width: 10
+border-color: 
+
+}
+.div2 { width: 300px; 
+    height:300px;
+     border: 5px sol red
+    border-bottom: 20px;
+    border-style: dotted;
+    border-width: 10;
+    background-color: rgb(44, 43, 43);
+    border-color: }
+border {}
+
+img{ width:100px;
+height:100px; 
+border-radius: 50%;
+/*
+.div3 { width: 300px; 
+    height:300px;
+    /* border: 5px sol red 
+    border-bottom: 20px;
+    border-style: dotted;
+    border-width: 10px;
+    border-radius: 20px;
+    border-top-right-radius: 30% 10%;
+}
+.div4 {  
+  
+  
+    width: 300px; 
+    height: 150px;
+    border: 1px;
+
+    
+    border-top: gold dashed 5px;
+    border-bottom: grey dotted 5px;
+    border-right: orangered solid 5px;
+    border-left: blue dotted 5px;
+
+    display:flex;
+
+    justify-content: center;
+    align-items: center;
+    
+object-fit: cover;
+   
+}*/
+
+/* Margin
+Padding
+Display p
+visability
+float
+clear
+*/
+
+.h1 {border-top-style: dashed;
+    border-bottom-style: dotted;
+    border-left-style: double;
+    border-left-width: 10px;
+    border-left-color: orange;}
+
+p{ border-style: outset;
+border-width: 5px;
+border-color: gold;
+border-radius: 10px;
+padding: 5px;
+}

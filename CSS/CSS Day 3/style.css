@@ -1,0 +1,124 @@
+/* box model - 
+content , 
+padding - 
+border 
+margin. */
+/*
+.div1{ width: 300px; 
+border: 3px solid ;
+padding: 20px; 
+/*margin: 50px; 
+} 
+
+.div2 { width: 350px;
+border: 5px solid ;
+padding-top: 10px;
+padding-bottom: 10px;
+margin: 10px 5px 10px 5px;
+padding: 5px 10px; 
+/* top/bottom right left
+text-align: center;
+}
+
+/* float - position elements left or right
+/* clear: remove float from an element
+div { float: right;}
+
+.p2 { clear: left} 
+*/
+
+/*
+
+
+/*
+.div4 { border: 5px solid blue;*/
+/*
+padding: 20px 10px 20px 10px;
+text-align: left;
+display: flex;
+float: center;
+}
+
+img {background-image: url(/Bootcamp/HTML/Images/nature\ image.jpg ; 
+float: left ;} 
+   
+Display: inline make element as inline - width and height property wont be affected
+block 
+
+*/
+
+.div5, .div6 {clear: both;
+border: 5px solid;
+margin: 5px;
+display: inline-block ;
+width: 200px;
+height: 100px;}
+
+.pic5{ 
+    width:100px;
+height: 90;
+display: block;
+}
+
+/* styling html link 
+a:link - normal link - unvisited link
+a: visited - a link that the user visited 
+a: hover - a link when the user has mouse over it
+a: active
+
+
+
+a {margin-right: 20px;
+    text-decoration: none;
+    color:crimson;
+    font-size: 15px;
+    padding: 10px; 28px;
+}
+a:hover {background-color: blueviolet; border-top: 5px solid chocolate;
+    border-bottom: 5px solid gray
+}
+
+a:active{color: aqua;
+font-size: 20px;}
+
+.login {
+    font-size: 16px
+    padding: 15px 20px;
+    margin: 20px;
+    border: none;
+    background-color: :red;
+    border-radius: 10px;
+}
+
+.login:hover{ background-color: brown;
+cursor:progress}
+
+/* Header
+Navigation 
+Home Project About Contact Us
+
+*/
+body {background-color:goldenrod;}
+.header { border-radius: 10px;
+    text-align: center;
+    background-color:darkgreen;
+color:steelblue; 
+
+}
+
+
+a {margin-right: 20px;
+    text-decoration: none;
+    color:blanchedalmond;
+    font-size: 15px;
+    padding: 10px; 28px;
+
+}
+a:hover {background-color:coral; border-top: 5px solid lawngreen;
+    border-bottom: 5px solid blue
+}
+
+a:active{color: aqua;
+font-size: 20px;}
+
+}

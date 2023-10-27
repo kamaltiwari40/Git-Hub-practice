@@ -1,0 +1,184 @@
+/* if we apply internal and external both on the same element */
+
+/* any code which applied the last will take high priority */
+
+/* id selector */
+
+ 
+
+@font-face {
+
+    font-family: "Roboto";
+
+    src: url(/Fonts/Roboto-Bold.ttf) format("truetype");
+
+}
+
+ 
+
+ 
+
+#p1{
+
+    background-color: blueviolet;
+
+   
+
+}
+
+/* class selector */
+
+.paragraph{
+
+    background-color: aqua;
+
+    font-family: Roboto;
+
+}
+
+/* tag selector */
+
+h1{
+
+background-color: coral;
+
+}
+
+/* group selectors */
+
+.heading3, .paragrap1, h2{
+
+    background-color: blue;
+
+}
+
+/* universal selector - select all elements */
+
+*{
+
+    font-size: xx-large;
+
+}
+
+/* element.class */
+
+p.text{
+
+    background-color: blueviolet;
+
+    font-weight: bold;
+
+    font-variant: small-caps;
+
+}
+
+ 
+
+/* font type
+
+web safe fonts
+
+web fonts
+
+*/
+
+.newParagraph{
+
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    font-size: small;
+
+   /*  font-variant: small-caps; */
+
+    font-style: italic;
+
+   text-transform: uppercase;
+
+   text-align: right;
+
+   line-height: 20px;
+
+   letter-spacing: 2px;
+
+   word-spacing: 5px;
+
+   text-decoration:underline;
+
+   color:brown
+
+}
+
+.newParagraph2{
+
+    font:30px bold 'Arial Narrow Bold', sans-serif;
+
+    text-indent: 90px;
+
+    /* shorthand notation */
+
+}
+
+/*
+
+!Task
+
+have five different paragraph
+
+1. change font-size, font family, text color, letter and word spacing between the text for the first two paragraphs.
+
+    !use google fonts/
+
+ 
+
+2. Change the font family, underline and bold the text last three paragraphs
+
+*/
+
+
+
+}
+ 
+
+/* Color
+
+name
+
+hedadecimal
+
+RGB
+
+HSL - Hue, Saturation, Lightnest
+
+ 
+
+*/
+
+body{
+
+    background-image: url(/Image/coffee_biscuits.jpg);
+
+}
+
+.newParagraph2{
+
+/* color:#a52a2a */
+
+/* color:brown; */
+
+color:rgb(255, 0, 159);
+
+/* background-color:hsla(250, 48%, 48%, 0.6) */
+
+background-color:rgba(42, 165, 73,0.6);
+
+}
+
+/*
+
+1. have a div give 300px height and width
+
+change the background color of the div using HSL with having transparency
+
+2. add two paragraph and change thier colour and background colour using RGB And Hexadecimal vlaues.
+
+*/

@@ -1,0 +1,19 @@
+
+div { height: 300px; width: 300px; 
+background-color: hsla(8, 86%, 40%, 0.3);}
+
+h1 {color: green;}
+
+.p1  {color:rgba(165, 42, 153, 0.6);}
+
+.p2  {color: #ff6347;}
+
+
+    /*
+1. have a div give 300px height and width
+
+change the background color of the div using HSL with having transparency
+
+2. add two paragraph and change thier colour and background colour using RGB And Hexadecimal vlaues.
+
+*/

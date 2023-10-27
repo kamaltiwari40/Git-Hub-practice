@@ -1,0 +1,25 @@
+body {background-image: url(/Bootcamp/HTML/Images/mohammad-rahmani-1bNQVGzuy0U-unsplash.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  background-size: 500px;
+    
+;}
+
+.div1 {background-color: rgba(181, 153, 116) ; 
+    colour: white;
+border-top-style: solid;
+border-bottom-style: solid; 
+
+}
+
+
+
+.h1 {color: whitesmoke}
+
+.div2 {background-color: darkred; color:aliceblue; 
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.img {height: ; width: ;}
+
+
+.id {background-image: url(/Bootcamp/HTML/Images/pexels-jorge-jesus-614117.jpg);}
