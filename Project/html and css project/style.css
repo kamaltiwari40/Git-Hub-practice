@@ -24,8 +24,9 @@ padding: 50px;
    border-style:ridge;
 
 } 
-   
-   
+  
+
+
 .nav :hover { background-color:darkgreen;
   text-align:center;  
 }
