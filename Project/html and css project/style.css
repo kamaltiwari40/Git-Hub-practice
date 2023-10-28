@@ -1,27 +1,27 @@
 body {
-  background-color:rgb(62, 62, 244);
+  background-color:cornflowerblue;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
-border: 5px solid gold;
+border: 10px solid gold;
+border-spacing: 6px;
+border-style:groove;
 color: azure;
-padding: 40px;
+padding: 50px;
 }
 
-nav { float: right; object-position: sticky;
- 
-  }
+
 
 .nav ul li {
-  position:absolute
+
   text-decoration: none;
   list-style-type: none;
   display: inline-block; 
   float: right;
   color: gainsboro;
    text-align: center;
-   border: 2px solid gold;
+   border: 3px solid gold;
    height: 30px;
    width: 100px;
-   margin-right: 30px ;
+   border-style:ridge;
 
 } 
    
@@ -48,9 +48,8 @@ margin: 30px;
 
 .sun {
   display: inline-block;
-  border: 3px solid orangered;
+  border: 3px  orangered;
   float: inline-end;
-
 
 }
 
@@ -77,7 +76,7 @@ text-align: center;}
 #form {
   margin: 0px;
   padding: 0px;
-  display: inline-block;
+ 
   text-decoration: none;
   
 }
