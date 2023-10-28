@@ -3,10 +3,10 @@ body {
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 border: 5px solid gold;
 color: azure;
-
+padding: 40px;
 }
 
-nav { position: sticky;
+nav { float: right; object-position: sticky;
  
   }
 
@@ -62,15 +62,11 @@ margin: 30px;
 
   #p {
     text-align: justify;
-    
-
-  
-  
+     
 }
 
   .p {text-align: justify;
    
- 
 }
 
 .footer {color:yellow; 
@@ -84,14 +80,4 @@ text-align: center;}
   display: inline-block;
   text-decoration: none;
   
-}
-
-.header { display: inline-block;
-  text-decoration: none;
-  border: 5px solid blanchedalmond;
-  height: 150px;
-  width: 700px;
-  background-color: skyblue; font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-decoration: none;
-
 }
