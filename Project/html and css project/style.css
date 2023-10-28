@@ -6,7 +6,7 @@ color: azure;
 flex-direction: ;
 }
 
-#nav ul li{ 
+.nav ul li{ 
 color: aliceblue;
    list-style-type: none;
    text-align: center;
@@ -22,11 +22,11 @@ display: inline-block;
 position:sticky;
 }
 
-#nav :hover { background-color:darkgray;
+.nav :hover { background-color:darkgreen;
   text-align:center; 
 }
 
-#nav a {text-decoration: none;
+.nav a {text-decoration: none;
   color:antiquewhite;}
   
 
@@ -64,6 +64,7 @@ float: inline-start;
   width: 800px;
 }
 
+.footer {color:yellow;}
 
 #form {
   border: 5px solid blanchedalmond;
