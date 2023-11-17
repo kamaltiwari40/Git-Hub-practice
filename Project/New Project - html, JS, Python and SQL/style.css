@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+  }
+
+  form {
+    width: 300px;
+    margin: 0 auto;
+    /* padding: 20px; */
+    border: 2px solid white;
+    background-color: white;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input {
+    width: 10%;
+    padding: 10px;
+    border: 1px solid gray;
+  }
+
+  button {
+    width: 10%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+  }
+  
+  

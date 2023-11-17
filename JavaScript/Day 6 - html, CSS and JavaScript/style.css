@@ -1,0 +1,8 @@
+.changeStyle {
+    width: 400px;
+    background-color: blueviolet;
+    text-align: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}

@@ -1,0 +1,11 @@
+timeline(['Eat, 'Code', 'Sleep', 'Repeat']);
+timeline([
+    {
+        title: 'Eat',
+        text: 'Everything you find in the fridge',
+        color: '#AEC9F3'
+    },
+    { ... },
+    { ... },
+    { ... }
+]);

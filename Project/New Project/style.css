@@ -1,2 +1,7 @@
 body {background-color: khaki;
 font-family: monospace;}
+
+#menu {
+    display:flex;
+    float: right;
+}
