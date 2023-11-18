@@ -1,7 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     background-color: lightblue;
-    
+  }
+
+  #content {
+   border: 2px solid; 
+   width: 400px;
+   height: 100px;
   }
 
   h1 {
@@ -10,7 +15,7 @@ body {
   }
 
   form {
-    width: 300px;
+      width: 100px;
     margin: 0 auto;
     /* padding: 20px; */
     border: 2px solid white;
@@ -31,9 +36,11 @@ body {
   button {
     width: 10%;
     padding: 10px;
-    background-color: green;
+    background-color: green; 
     color: white;
+    font-weight: bolder;
     border: none;
+
   }
   
   

@@ -1,4 +1,4 @@
-JavaScript
+//JavaScript
 // AI-generated code. Review and use carefully. More info on FAQ.
 
 // This is a javascript template
